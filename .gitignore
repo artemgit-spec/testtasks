@@ -1,0 +1,11 @@
+venv/
+*.db
+__pycache__/
+.celery_results
+.control
+*.pyc
+*.pyo
+
+# Настройки IDE
+.vscode/
+.idea
