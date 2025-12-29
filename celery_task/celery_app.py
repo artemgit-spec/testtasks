@@ -1,7 +1,7 @@
 from celery import Celery
 
 """
-celery -A celery_task.celery_app.app_celery worker --pool=solo для запуска 
+celery -A celery_task.celery_app.app_celery worker --pool=solo
 """
 app_celery = Celery(
     "my_task",
