@@ -1,7 +1,7 @@
 venv/
 __pycache__/
-celery_results
-control
+celery_results/
+control/
 *.pyc
 *.pyo
 
